@@ -301,3 +301,34 @@ a,
 p {
   text-align: justify;
 }
+
+/* --- Fix tablas en modo oscuro (Minima) --- */
+
+table {
+  background-color: transparent !important;
+}
+
+table th, table td {
+  background-color: transparent !important;
+  border: 1px solid var(--text-muted-color, #ddd);
+}
+
+table tr:nth-child(even),
+table tr:nth-child(odd) {
+  background-color: transparent !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid var(--text-muted-color, #555);
+}
