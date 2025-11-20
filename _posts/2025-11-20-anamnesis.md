@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anamnesis: guía para estudiantes de medicina"
-date: 2025-11-20
+date: 2025-05-10
 categories: [medicina]
 ---
 
