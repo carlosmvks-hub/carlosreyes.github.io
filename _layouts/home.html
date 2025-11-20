@@ -4,11 +4,18 @@ layout: default
 
 <div class="home">
 
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
+  <!-- HERO SUPERIOR -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-kicker">Blog personal · Medicina · Filosofía · Fe</p>
+      <h1 class="hero-title">{{ page.title }}</h1>
+      {% if page.tagline %}
+        <p class="hero-tagline">{{ page.tagline }}</p>
+      {% endif %}
+    </div>
+  </section>
 
-  <!-- INTRO SUPERIOR -->
+  <!-- INTRO DEL INDEX -->
   <div class="home-intro">
     {{ content }}
   </div>
@@ -16,7 +23,7 @@ layout: default
   {% assign featured = site.posts.first %}
 
   <div class="home-layout">
-    <!-- COLUMNA IZQUIERDA: lista de posts (menos el destacado) -->
+    <!-- COLUMNA IZQUIERDA: posts (excepto el destacado) -->
     <div class="home-main">
       {% if site.posts.size > 0 %}
         <h2 class="post-list-heading">
@@ -51,7 +58,7 @@ layout: default
       {% endif %}
     </div>
 
-    <!-- COLUMNA DERECHA: POST MÁS RECIENTE DESTACADO -->
+    <!-- COLUMNA DERECHA: POST MÁS RECIENTE -->
     <aside class="home-featured">
       {% if featured %}
         <div class="post-card featured-card">
