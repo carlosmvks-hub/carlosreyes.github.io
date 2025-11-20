@@ -4,7 +4,6 @@ title: Sobre mí
 permalink: /sobre-mi/
 ---
 
-<div style="text-align: justify;">
   Soy Carlos Reyes, estudiante de medicina en la UNAH.
 Este blog es mi cuaderno público de trabajo. Un espacio donde registro investigaciones sobre temas relevantes 
 o de mi interés, registro lo que estudio, lo que descubro y lo que intento convertir en hábitos, carácter y 
@@ -35,4 +34,3 @@ proceso real. Creo profundamente que uno no aprende solo para acumular, sino par
 uno entiende genera una responsabilidad: Compartirla con claridad.
 
 Este blog existe para eso. Lo publicado ya me ayudó a mí. Si en el camino le sirve a alguien más, me basta.
-</div>
