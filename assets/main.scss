@@ -1,0 +1,60 @@
+---
+---
+
+@import "minima";
+
+/* ancho más cómodo */
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* título de la cabecera */
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* descripción de inicio */
+.home .page-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* cards para los posts */
+.post-list > li {
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+}
+
+.post-card {
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+}
+
+.post-card .post-meta {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+}
+
+.post-card .post-link {
+  font-size: 1.2rem;
+}
+
+.post-card p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* link “leer más” */
+.read-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
