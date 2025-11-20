@@ -3,17 +3,21 @@
 
 @import "minima";
 
-/* Aplicar Inter a todo */
-body, html {
+/* Aplicar Inter a todo el sitio */
+html,
+body {
   font-family: "Inter", sans-serif !important;
 }
 
-.site-title, .site-nav, .post-title, .page-title,
-.post-content, .post-content p, .post-content li {
+.site-title,
+.site-nav,
+.post-title,
+.page-title,
+.post-content,
+.post-content p,
+.post-content li {
   font-family: "Inter", sans-serif !important;
 }
-
-
 
 /* Títulos y navegación */
 .site-title,
