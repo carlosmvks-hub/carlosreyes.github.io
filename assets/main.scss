@@ -126,3 +126,64 @@ body {
   color: #666;
   max-width: 600px;
 }
+
+/* ----- HOME EN DOS COLUMNAS ----- */
+
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+}
+
+/* que el contenido no quede tan centrado, se siente más a la izquierda */
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* columna izquierda */
+.home-main .post-list-heading {
+  margin-bottom: 1rem;
+}
+
+/* tarjetas pequeñas de la izquierda */
+.small-card {
+  padding: 1.2rem 1.4rem;
+}
+
+/* columna derecha: destacado */
+.home-featured {
+  position: sticky;
+  top: 4rem; /* se queda visible al hacer scroll */
+}
+
+/* tarjeta destacada */
+.featured-card {
+  padding: 1.8rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+.featured-title {
+  font-size: 1.6rem;
+  margin: 0.5rem 0 0.75rem 0;
+}
+
+.featured-excerpt {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* responsive: en móviles, que todo vuelva a una columna */
+@media (max-width: 900px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-featured {
+    position: static;
+    margin-top: 1.5rem;
+  }
+}
