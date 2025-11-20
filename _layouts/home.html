@@ -8,34 +8,72 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
-  <!-- INTRO -->
+  <!-- INTRO SUPERIOR -->
   <div class="home-intro">
     {{ content }}
   </div>
 
-  {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">
-      {{ page.list_title | default: "Posts" }}
-    </h2>
+  {% assign featured = site.posts.first %}
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li class="post-card">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="home-layout">
+    <!-- COLUMNA IZQUIERDA: lista de posts (menos el destacado) -->
+    <div class="home-main">
+      {% if site.posts.size > 0 %}
+        <h2 class="post-list-heading">
+          {{ page.list_title | default: "Posts" }}
+        </h2>
 
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
+        <ul class="post-list">
+          {% for post in site.posts %}
+            {% if post.url == featured.url %}
+              {% continue %}
+            {% endif %}
+
+            <li class="post-card small-card">
+              <span class="post-meta">
+                {{ post.date | date: "%b %-d, %Y" }}
+              </span>
+
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+
+              <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+
+              <a class="read-more" href="{{ post.url | relative_url }}">
+                Leer más →
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+
+    <!-- COLUMNA DERECHA: POST MÁS RECIENTE DESTACADO -->
+    <aside class="home-featured">
+      {% if featured %}
+        <div class="post-card featured-card">
+          <span class="post-meta">
+            {{ featured.date | date: "%b %-d, %Y" }}
+          </span>
+
+          <h2 class="featured-title">
+            <a class="post-link" href="{{ featured.url | relative_url }}">
+              {{ featured.title | escape }}
             </a>
-          </h3>
+          </h2>
 
-          <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+          <p class="featured-excerpt">
+            {{ featured.excerpt | strip_html | truncate: 260 }}
+          </p>
 
-          <a class="read-more" href="{{ post.url | relative_url }}">
-            Leer más →
+          <a class="read-more" href="{{ featured.url | relative_url }}">
+            Leer el artículo completo →
           </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+        </div>
+      {% endif %}
+    </aside>
+  </div>
 </div>
