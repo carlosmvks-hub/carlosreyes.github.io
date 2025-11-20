@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Primer paso"
 date: 25-11-19
 categories: [Reflexión]
