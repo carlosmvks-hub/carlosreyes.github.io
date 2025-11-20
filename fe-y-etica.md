@@ -1,15 +1,14 @@
 ---
 layout: category
-title: Fe y Ética
-permalink: /fe-y-etica/
-category: fe-etica
+title: Fé y ética
+permalink: /fe_y_etica/
+category: fe
 description: Escrituras, reflexiones sobre fe cristiana, análisis teológicos y ética aplicada al acto médico y a la vida.
 
 ---
 
-
 {% for post in site.posts %}
-  {% if post.categories contains "Fe_y_etica" %}
+  {% if post.categories contains "fe" %}
   - [{{ post.title }}]({{ post.url }})
   {% endif %}
 {% endfor %}
