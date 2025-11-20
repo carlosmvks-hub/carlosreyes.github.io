@@ -1,13 +1,24 @@
 ---
 ---
 
+/* 1) Primero cargamos el tema base */
 @import "minima";
 
-/* 1. Tipografía y tema base */
+/* 2) Luego importamos la fuente que queremos usar */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
-body {
-  font-family: "Inter", sans-serif;
+/* 3) Y al final SOBREESCRIBIMOS la fuente del tema */
+html,
+body,
+.site-title,
+.site-nav,
+.post-title,
+.page-title,
+.post-content,
+.post-content p,
+.post-content li {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif !important;
 }
 
 /* ---------- PALETA CLARA / OSCURA ---------- */
