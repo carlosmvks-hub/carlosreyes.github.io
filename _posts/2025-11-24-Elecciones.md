@@ -17,12 +17,10 @@ Como muchos jóvenes, estoy tratando de entender qué significa realmente votar 
 Este análisis nace de esa necesidad: **mirar las propuestas sin propaganda, sin fanatismos y sin ilusiones fáciles**.  
 Lo que sigue no busca convencer a nadie, sino mostrar, con la mayor claridad posible, **¿Qué dice cada candidato, qué tan realista es y qué precio implicaría cada proyecto de país?**.
 
-Porque decidir no es escoger quién habla más bonito.  Es entender **qué futuro estamos poniendo en la mesa**.
+Porque decidir no es escoger quién habla más bonito.  Es entender **qué futuro estamos poniendo en la mesa**
 
 
-
-#**Retrato de cada candidato**
-
+#Retrato de cada candidato. 
 
 
 ## **Salvador Nasralla — El anticorrupción que quiere rehacer el Estado desde las entrañas**
