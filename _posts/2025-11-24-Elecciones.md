@@ -19,15 +19,16 @@ Lo que sigue no busca convencer a nadie, sino mostrar, con la mayor claridad pos
 
 Porque decidir no es escoger quién habla más bonito.  Es entender **qué futuro estamos poniendo en la mesa**.
 
+
 # **Retrato de cada candidato**
 
 ## **Salvador Nasralla — El anticorrupción que quiere rehacer el Estado desde las entrañas**
 
 Salvador Nasralla llega a esta elección con una idea fija que ha perfeccionado durante más de una década: **la corrupción no es un síntoma, es la enfermedad central del país**.  
 Y para él, nada puede construirse mientras el Estado siga siendo una máquina de saqueo.  
-De ahí nace su narrativa quirúrgica: Honduras no está pobre porque carezca de recursos, sino porque los recursos han sido capturados. La solución, entonces, no es ideológica sino moral: **depurar, digitalizar, auditar y transparentar**.
+De ahí nace su narrativa: Honduras no está pobre porque carezca de recursos, sino porque los recursos han sido capturados. La solución, entonces, no es ideológica sino moral: **depurar, digitalizar, auditar y transparentar**.
 
-Ese mensaje conecta con una ciudadanía asfixiada por abusos, promesas rotas y décadas de malos manejos. Nasralla entendió algo simple: la gente no quiere un filósofo económico, quiere un _filtro antipandemia estatal_.
+Ese mensaje conecta con una ciudadanía asfixiada por abusos, promesas rotas y décadas de malos manejos. Nasralla entendió algo simple; la gente no quiere un filósofo económico, quiere un _filtro antipandemia estatal_.
 
 ## **Trayectoria: del set al poder político**
 
