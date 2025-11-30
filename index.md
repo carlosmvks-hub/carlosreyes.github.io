@@ -7,7 +7,7 @@ title: Carlos Reyes
   <p class="hero-kicker">BLOG PERSONAL · MEDICINA · FILOSOFÍA · FE</p>
   <h1 class="hero-title">Carlos Reyes</h1>
   <p class="hero-tagline">
-    Cuaderno público de un estudiante de medicina que piensa, escribe y combate la mediocridad.
+    Cuaderno público de un estudiante que piensa y escribe.
   </p>
   <p class="hero-subtitle">
     Escribo para entender. Publico para recordar.<br>
