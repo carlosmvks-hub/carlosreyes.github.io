@@ -422,29 +422,4 @@ table th, table td {
   }
 }
 
-/* --- TAGLINE --- */
-.post-tagline {
-  font-size: 0.95rem;
-  opacity: 0.65;
-  margin-top: -0.5rem;
-  margin-bottom: 1.2rem;
-  font-style: italic;
-}
-
-/* --- CTA FINAL --- */
-.post-cta {
-  margin-top: 2rem;
-  padding-top: 1.4rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: left;
-}
-
-.post-cta a {
-  font-size: 0.95rem;
-  opacity: 0.75;
-  transition: opacity 0.2s ease;
-}
-
-.post-cta a:hover {
-  opacity: 1;
 }
