@@ -1,7 +1,6 @@
 ---
 layout: home
-title: "Carlos Reyes"
-tagline: "Medicina, pensamiento crítico, fe y proyectos personales."
+title: Carlos Reyes
 ---
 
 <div class="hero">
@@ -17,6 +16,6 @@ tagline: "Medicina, pensamiento crítico, fe y proyectos personales."
 </div>
 
 <p class="hero-note">
-  Aquí ordeno lo que estudio, lo que creo y lo que voy descubriendo.  
+  Aquí ordeno lo que estudio, lo que creo y lo que voy descubriendo.
   Este blog es mi archivo de trabajo: medicina, pensamiento crítico, fe y proyectos personales.
 </p>
