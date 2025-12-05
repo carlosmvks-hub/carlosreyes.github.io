@@ -3,6 +3,7 @@ layout: post
 title: "Narcisismo y Trastorno Narcisista de la Personalidad: una mirada desde dentro"
 date: 2025-09-16
 categories: [medicina]
+featured: true
 ---
 
 Imagina estar frente al espejo. No es un espejo cualquiera: refleja tu rostro, pero también las expectativas de los demás, los elogios que nunca parecen suficientes y las críticas que incluso cuando son constructivas no se sienten como simples observaciones, sino que hieren como ataques. Además, la admiración ajena que lejos de llenar ese vacío, se vuelve un combustible que exige más y más. Un reflejo que cambia según los ojos que te miran, y cuanto más lo buscas, más frágil se vuelve.
